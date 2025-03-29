@@ -61,7 +61,7 @@ ul, ol {
     }
     html {padding-block: 0;}
     .card { width: 100%;}
-    .img--wrapper {margin: -2rem;}
+    .img--wrapper {margin: -2rem -2rem 0  -2rem;}
 }
 
 @media (max-width: 1200px) {
@@ -94,7 +94,6 @@ ul, ol {
 
 .card p, li {
     font-family: 'Outfit', serif;
-    /* font-size: .95rem; */
     font-weight: 400;
 }
 
@@ -112,7 +111,6 @@ h4 {
 }
 
 body {
-    /* width: 100%; */
     background-color: #f8e5d2;
 }
 
@@ -122,12 +120,12 @@ img {
     border-radius: 6px;
 }
 
-ul {
+ul, ol {
     list-style: disc;
     padding-left: 1.5em;
 }
 
-ul li {
+li {
     padding-inline: .5rem;
     vertical-align: middle;
     align-self: cen;
@@ -138,7 +136,6 @@ li{
 }
 
 li, p {
-    font-size: .25rem;
     padding-block: .5rem;
 }
 
@@ -154,25 +151,18 @@ tr {
 tr td {
     font-family: 'Outfit', sans-serif;
     border-bottom: 1px solid hsl(30, 54%, 90%);
-    /* border-collapse: collapse; */
 }
 
-/* tr td:first-child {
-    padding-right: 21em;
-    
-} */
 tr td:last-child {
     color: hsl(14, 45%, 36%);
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
-
-
-
-.attribution {
+}
+/* .attribution {
     font-size: 11px;
     text-align: center;
   }
 
   .attribution a {
     color: hsl(228, 45%, 44%);
-  }
+  } */
