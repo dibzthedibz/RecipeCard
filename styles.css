@@ -70,7 +70,9 @@ html {
 
 .wrapper--narrow {
     margin-inline: 1rem;
-    padding: .5rem;
+    padding: 1rem;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 8px;
 }
 
 .wrapper--narrow h4 {
