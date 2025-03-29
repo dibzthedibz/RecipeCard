@@ -38,12 +38,6 @@ html {
     padding-block: 2rem;
 }
 
-ul, ol {
-    margin: 0; /* Removes the default margin */
-    padding: 0; /* Removes the default padding */
-    list-style-position: inside; /* Ensures bullets and numbers appear inside the container */
-}
-
 .card {
     display: grid;
     gap: 1em;
@@ -72,11 +66,9 @@ ul, ol {
 
 .wrapper {
     padding-bottom: 1rem;
-    /* border: 1px solid red; */
 }
 
 .wrapper--narrow {
-    /* border: 1px solid red; */
     margin-inline: 1rem;
     padding: .5rem;
 }
@@ -131,10 +123,6 @@ li {
     align-self: cen;
 }
 
-li{
-
-}
-
 li, p {
     padding-block: .5rem;
 }
@@ -143,9 +131,6 @@ table {
     width: 100%;
     table-layout: fixed;
     border-collapse: collapse;
-}
-
-tr {
 }
 
 tr td {
@@ -158,11 +143,3 @@ tr td:last-child {
     font-family: 'Outfit', sans-serif;
     font-weight: 400;
 }
-/* .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  } */
