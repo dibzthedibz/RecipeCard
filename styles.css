@@ -119,11 +119,10 @@ ul, ol {
 
 li {
     padding-inline: .5rem;
-    vertical-align: middle;
-    align-self: cen;
 }
 
 li, p {
+    font-size: 1rem;
     padding-block: .5rem;
 }
 
